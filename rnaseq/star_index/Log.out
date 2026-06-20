@@ -1,0 +1,62 @@
+STAR version=2.7.10a
+STAR compilation time,server,dir= :/Users/travis/build/alexdobin/travis-tests/STARcompile/source
+STAR git: On branch master ; commit 51b64d4fafb7586459b8a61303e40beceeead8c0 ; diff files: 
+##### Command Line:
+/Users/shota/.pyenv/versions/miniconda3-4.7.12/bin/STAR --runMode genomeGenerate --genomeDir /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index --genomeFastaFiles /Users/shota/Downloads/syn3A_genome_browser/rnaseq/genome/syn3A.fa --genomeSAindexNbases 9 --runThreadN 4
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index     ~RE-DEFINED
+genomeFastaFiles              /Users/shota/Downloads/syn3A_genome_browser/rnaseq/genome/syn3A.fa        ~RE-DEFINED
+genomeSAindexNbases           9     ~RE-DEFINED
+runThreadN                    4     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        4
+genomeDir                         /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index
+genomeFastaFiles                  /Users/shota/Downloads/syn3A_genome_browser/rnaseq/genome/syn3A.fa   
+genomeSAindexNbases               9
+
+-------------------------------
+##### Final effective command line:
+/Users/shota/.pyenv/versions/miniconda3-4.7.12/bin/STAR   --runMode genomeGenerate      --runThreadN 4   --genomeDir /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index   --genomeFastaFiles /Users/shota/Downloads/syn3A_genome_browser/rnaseq/genome/syn3A.fa      --genomeSAindexNbases 9
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index/
+Jun 16 16:56:59 ... starting to generate Genome files
+/Users/shota/Downloads/syn3A_genome_browser/rnaseq/genome/syn3A.fa : chr # 0  "CP016816.2" chrStart: 0
+Chromosome sequence lengths: 
+CP016816.2	543379
+Genome sequence total length = 543379
+Genome size with padding = 786432
+!!!!! WARNING: --genomeSAindexNbases 9 is too large for the genome size=543379, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 8
+Estimated genome size with padding and SJs: total=genome+SJ=201786432 = 786432 + 201000000
+GstrandBit=32
+Number of SA indices: 1086758
+Jun 16 16:56:59 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 4;   chunks size limit: 2898016 bytes
+Jun 16 16:56:59 ... sorting Suffix Array chunks and saving them to disk...
+Writing 255520 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SA_3 ; empty space on disk = 4853926461440 bytes ... done
+Writing 2753648 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SA_2 ; empty space on disk = 4853860401152 bytes ... done
+Writing 2818088 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SA_0 ; empty space on disk = 4853156806656 bytes ... done
+Writing 2866808 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SA_1 ; empty space on disk = 4852804485120 bytes ... done
+Jun 16 16:56:59 ... loading chunks from disk, packing SA...
+Jun 16 16:56:59 ... finished generating suffix array
+Jun 16 16:56:59 ... generating Suffix Array index
+Jun 16 16:56:59 ... completed Suffix Array index
+Jun 16 16:56:59 ... writing Genome to disk ...
+Writing 786432 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//Genome ; empty space on disk = 4853925412864 bytes ... done
+SA size in bytes: 4482880
+Jun 16 16:56:59 ... writing Suffix Array to disk ...
+Writing 4482880 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SA ; empty space on disk = 4853724086272 bytes ... done
+Jun 16 16:56:59 ... writing SAindex to disk
+Writing 8 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SAindex ; empty space on disk = 4852575895552 bytes ... done
+Writing 80 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SAindex ; empty space on disk = 4852575895552 bytes ... done
+Writing 1529171 bytes into /Users/shota/Downloads/syn3A_genome_browser/rnaseq/star_index//SAindex ; empty space on disk = 4852575895552 bytes ... done
+Jun 16 16:56:59 ..... finished successfully
+DONE: Genome generation, EXITING

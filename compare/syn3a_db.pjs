@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "syn3a_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/shota/Downloads/syn3A_genome_browser/compare/syn3a_prot.fa",
+  "number-of-letters": 158828,
+  "number-of-sequences": 455,
+  "last-updated": "2026-06-16T20:04:00",
+  "number-of-volumes": 1,
+  "bytes-total": 242594,
+  "bytes-to-cache": 163076,
+  "files": [
+    "syn3a_db.pdb",
+    "syn3a_db.phr",
+    "syn3a_db.pin",
+    "syn3a_db.pot",
+    "syn3a_db.psq",
+    "syn3a_db.ptf",
+    "syn3a_db.pto"
+  ]
+}
