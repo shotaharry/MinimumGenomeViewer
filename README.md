@@ -1,6 +1,7 @@
 # JCVI-Syn3A Minimal Genome Browser
 
 An interactive genome browser for the minimal synthetic bacterium **JCVI-Syn3A** (CP016816.2, 543,379 bp).
+https://shotaharry.github.io/MinimumGenomeViewer/
 
 ## Features
 
